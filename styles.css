@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+body{
+    background-color:hsl(0, 0%, 100%);
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    font-family: 'League Spartan', sans-serif;
+    background: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-size: 40%, 60%;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+    max-height: 100vh;
+
+}
+.container{
+    display: flex;
+    flex-direction:row ;
+    gap: 200px;
+}
+
+.header{
+   
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+    flex-direction: column;
+    max-width: 400px;
+  
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-top: 40px;
+    max-width: 270px;
+    justify-content: left;
+    margin-left: -50px;
+}
+p{
+    font-weight: 700;
+    color:hsl(303, 10%, 53%);
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 370px;
+    margin-bottom: -30px;
+}
+.stars {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px 100px; /* Adjust the row heights as needed */
+    gap: 3px;
+    grid-template-areas:
+      "review"
+      "guru"
+      "best";
+      max-height: 160px;
+      
+
+
+  }
+  
+  .review {
+    grid-column: 1;
+    grid-row: 1;
+    background-color:hsl(300, 24%, 96%);
+    max-height: 40px;
+    margin-top: 40px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+
+    
+  }
+  .icon{ 
+    height: 13px;
+    width: 13px;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: -5px;
+  }
+  .review p{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+  }
+  
+  .guru {
+    grid-column: 1;
+    grid-row: 2;
+    background-color:hsl(300, 24%, 96%);
+    max-height: 40px;
+    margin-bottom: -10px;
+    margin-left: 35px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    
+    
+  }
+  .icon2{
+    height: 13px;
+    width: 13px;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: -5px;
+  }
+  .guru p{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+  }
+  
+  .best {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: hsl(300, 24%, 96%);
+    max-height: 40px;
+    margin-top: -40px;
+    margin-left: 70px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    
+  }
+  .icon3{
+    height: 13px;
+    width: 13px;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: -5px;
+  }
+  .best p{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    
+  }
+
+.buyers{
+display: grid;
+grid-row: auto auto auto;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+max-width:1000px ;
+margin-top: 70px;
+justify-content: center;
+gap: 20px;
+
+}
+.colton{
+    background-color:hsl(300, 43%, 22%);
+    max-width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+}
+.colton p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%); ;
+}
+.irene{
+    background-color: hsl(300, 43%, 22%);
+    max-width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+}
+.irene p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%); ;
+}
+.anne{
+    background-color: hsl(300, 43%, 22%);
+    max-width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+}
+.anne p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%); ;
+}
+.colton img{
+    margin-left: 10px;
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 40px;
+}
+.cs{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 50px;
+  margin-top: 20px;
+}
+.smith{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+.irene img{
+  margin-left: 10px;
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+}
+.ir{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 50px;
+  margin: 20px;
+  
+}
+.roberts{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+.anne img{
+  margin-left: 10px;
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+}
+.aw{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 50px;
+  margin: 20px;
+}
+.walace{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  
+}
+/* mobile phone design */
+@media screen and (max-width :768px)
+{
+  body{
+  display: flex;
+  flex-direction: column;
+  background: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  background-size: 90%, 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    }
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    margin-bottom: -200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 100vh;
+    width: 320px;
+  }
+  h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+  p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;}
+  .stars{
+margin-top: -5px;
+  }
+  .review{
+    max-height: 50px;
+    margin-bottom: -30px;
+    order: 1;
+    margin-left: 60px;
+    margin-right: 40px;
+    max-width: 300px;
+    
+      }
+      .guru{
+    order: 2;
+    max-height: 50px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    max-width: 300px;
+    height: 200px;
+    
+      }
+      .best{
+    order: 3;
+    max-height: 50px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    max-width: 300px;
+    
+      }
+      .buyers{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -50px;
+
+      
+      }
+      .colton{
+    
+        width: 300px;
+      }
+      .irene{
+    
+        width: 300px;
+      }
+      .anne{
+    
+        width: 300px;
+        margin-bottom: 20px;
+      
+
+  }
+}
